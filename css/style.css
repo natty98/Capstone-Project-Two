@@ -1,0 +1,37 @@
+body{
+    background-color: #F6F5F5;
+}
+
+nav{
+    display:inline;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+}
+  
+ul.nav li {
+    float: right;
+}
+  
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+ul.nav li a:hover {
+    background-color: #b7c6d8;
+}
+
+@media (max-width: 680px) {
+    ul.nav li.right, 
+    ul.nav li {float: none;}
+}
