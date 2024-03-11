@@ -1,6 +1,7 @@
 body, html{
     margin:0;
-    height:100%
+    height:100%;
+    background-color: #e3cfec;
 }
 h1{
     font-size: xx-large;
@@ -55,12 +56,16 @@ ul.nav li a:hover{
 }
 
 .about-me{
-    background-color: #e3cfec;
     padding: 30px;
+    float:left;
+    display:flex;
 }
 
 #profile-pic{
-    height: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 200px;
+    flex:1;
 }
 
 @media (max-width: 680px) {
