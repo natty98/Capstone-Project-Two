@@ -4,7 +4,7 @@ html{
 body{
     margin:0;
     height:100%;
-    background-color: rgba(227, 207, 236, .4);
+    background-color: rgba(227, 207, 236, .6);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 h1{
@@ -21,7 +21,6 @@ ul.nav{
     padding: 0;
     overflow: hidden;
     background-color: #9c77e0;
-    position: sticky;
 }
   
 ul.nav li{
@@ -76,6 +75,15 @@ ul.nav li a:hover{
     padding-right: 20px;
     height: 200px;
     float: left;
+}
+
+.skills-and-workexp{
+    margin:0;
+    padding: 3%;
+}
+
+li{
+    list-style-type:none;
 }
 
 @media (max-width: 680px) {
