@@ -77,13 +77,25 @@ ul.nav li a:hover{
     float: left;
 }
 
-.skills-and-workexp{
+.skills{
     margin:0;
     padding: 3%;
 }
 
 li{
     list-style-type:none;
+}
+
+.tech-skills{
+    width:45%;
+    float: left;
+    padding: 20px;
+}
+
+.soft-skills{
+    width:45%;
+    float:right;
+    padding: 20px;
 }
 
 @media (max-width: 680px) {
@@ -106,5 +118,9 @@ li{
 
     text{
         display: block;
+    }
+
+    .soft-skills, .tech-skills{
+        float:none;
     }
 }
