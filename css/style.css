@@ -78,9 +78,11 @@ ul.nav li a:hover{
 }
 
 .skills{
-    margin:0;
+    margin:10px;
     padding: 10px;
-    background-color: #c1b0df;
+    background-color: #dfb0d980;
+    border: 5px solid rgb(216, 166, 204);
+    border-radius: 30px;
 }
 
 .t-s-skills{
