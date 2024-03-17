@@ -90,6 +90,7 @@ ul.nav li a:hover{
 li{
     list-style-type:none;
 }
+
 .skill-heading{
     margin-left: 40px; 
     text-decoration:underline;
@@ -103,7 +104,7 @@ li{
 
 .soft-skills{
     width:45%;
-    padding-left: 100px;
+    padding-left: 20px;
     float:right;
 }
 
