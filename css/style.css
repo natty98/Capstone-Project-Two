@@ -90,6 +90,9 @@ ul.nav li a:hover{
 
 .t-s-skills{
     display: flex;
+    background-color: rgba(223, 80, 176, 0.286);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
 }
 
 li{
