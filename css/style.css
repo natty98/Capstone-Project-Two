@@ -88,6 +88,11 @@ ul.nav li a:hover{
     border-radius: 30px;
 }
 
+#skills-heading{
+    text-align: center; 
+    font-size: xx-large;
+}
+
 .t-s-skills{
     display: flex;
     background-color: rgba(223, 80, 176, 0.286);
